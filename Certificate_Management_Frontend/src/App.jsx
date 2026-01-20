@@ -1,5 +1,6 @@
 import './App.css'
 import Login from './components/Login'
+import TextArea from './components/textArea'
 function App() {
   return (
     <>
@@ -25,7 +26,8 @@ function App() {
       </p> */}
 
       
-      <Login />
+     {/* <Login /> */}
+      <TextArea />
       
     </>
   )
