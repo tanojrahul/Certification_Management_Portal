@@ -1,13 +1,11 @@
-import './App.css'
-import Button from './components/button'
-import Login from './components/Login'
+// import './App.css'
 import { FaArrowRight } from 'react-icons/fa'
-import Textfield from './components/Textfield'
+import Homepage from './Pages/Homepage'
 function App() {
   return (
     <>
     {/* // <Login /> */}
-    <Button
+    {/* <Button
   text="Submit Certificate"
   icon={<FaArrowRight />}
   iconPosition="right"
@@ -20,6 +18,14 @@ value=""
 onChange={() => {}}
 placeholder="Enter your username"
 />
+<textarea
+Textfield="Description"
+value=""
+onChange={() => {}}
+placeholder="Enter description here..."
+/>  */}
+{/* <Login /> */}
+<Homepage />
     </>
   )
 }
