@@ -2,7 +2,6 @@ function Login() {
   return (
     <div className="min-h-screen flex items-center justify-center bg-gray-100 dark:bg-gray-900">
       <div className="w-full max-w-md bg-blue-50 dark:bg-blue-900 rounded-2xl shadow-xl overflow-hidden">
-
         {/* Student Email */}
         <div className="px-6 pt-6">
           <label className="flex flex-col gap-1.5">
